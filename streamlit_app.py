@@ -89,3 +89,5 @@ if uploaded_file is not None:
             messages.append({'role': 'user', 'parts': [st.session_state.next_question]})
             response = model.generate_content(messages)
             st.write(response.text)
+
+# Zap Test
