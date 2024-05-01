@@ -90,4 +90,4 @@ if uploaded_file is not None:
             response = model.generate_content(messages)
             st.write(response.text)
 
-# Zap Test
+# Zapier Test
